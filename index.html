@@ -31,32 +31,34 @@
     <!-- about me, include resume? -->
     <section>
         <h3 id="aboutMe" class="p-2">About Me</h3>
-        <figure class="figure p-2">
-            <img src="..." class="figure-img img-fluid rounded" alt="Me standing infront of the Golden Gate Bridge">
-            <figcaption class="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
-        </figure>
-        <section class="d-flex w-75 p-3">
-            <p>
-                Hello, and welcome to my portfolio where I will be chronicling my journy from the world of mechanical
-                engineering and physical products, to the world of software development. My name is Theo, and while I may be
-                new to this for now, I can't wait to continue to sink my teeth into projects like building this portfolio!
-            </p>
-            <br>
-            <p>
-                Below you can start to look through some of the things I've worked on wither by myself or with other group
-                members from my bootcamp class. I plan to continuing coming back to this page to update the works listed
-                below as my body of work grows and I gain new skills I can implement on these pages themselves.
-            </p>
-            <br>
-            <p>
-                In my time outside of work and class, I'm an avid endurance athlete. I can regularly be found running or
-                cycling along Chicago's lakefront and generally enjoying the outdoors. On top of that I love to play
-                strategy games with my partner and friends. My top three right now are called <span class="ital">Gloomhaven</span>, <span class="ital">Scythe</span>, and <span class="ital">Betrayal at the House on the Hill</span>!
-            </p>
+        <section id="bio" class="d-flex justify-content-center">
+            <figure class="figure p-2">
+                <img src="..." class="figure-img img-fluid rounded" alt="Me standing infront of the Golden Gate Bridge">
+                <figcaption class="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
+            </figure>
+            <section class="d-flex w-75 p-3">
+                <p>
+                    Hello, and welcome to my portfolio where I will be chronicling my journy from the world of mechanical
+                    engineering and physical products, to the world of software development. My name is Theo, and while I may be
+                    new to this for now, I can't wait to continue to sink my teeth into projects like building this portfolio!
+                </p>
+                <br>
+                <p>
+                    Below you can start to look through some of the things I've worked on wither by myself or with other group
+                    members from my bootcamp class. I plan to continuing coming back to this page to update the works listed
+                    below as my body of work grows and I gain new skills I can implement on these pages themselves.
+                </p>
+                <br>
+                <p>
+                    In my time outside of work and class, I'm an avid endurance athlete. I can regularly be found running or
+                    cycling along Chicago's lakefront and generally enjoying the outdoors. On top of that I love to play
+                    strategy games with my partner and friends. My top three right now are called <span class="ital">Gloomhaven</span>, <span class="ital">Scythe</span>, and <span class="ital">Betrayal at the House on the Hill</span>!
+                </p>
+            </section>
         </section>
     </section>
     <!-- Project Carousel -->
-    <section>
+    <section id="projectsDiv" class="d-flex justify-content-center flex-wrap w-50">
         <h3 id="myProjects" class="p-2">My Projects</h3>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -64,12 +66,12 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner justify-content-center">
               <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+                <img id="oneFishTwoFishImg" src="Assets/OneFishTwoFishApp.png" class="d-block w-100" alt="Landing Page for One Fish, Two Fish, Red Fish, Go Fish application.">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>One Fish, Two Fish, Red Fish, Go Fish</h5>
+                  <p>Get Weather Forcasts and Fish in Your Coastal Area!</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -102,7 +104,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
