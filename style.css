@@ -3,4 +3,11 @@
 }
 #projectsDiv{
     margin: auto;
+    height: 750px;
+}
+.carousel-caption{
+    background-color: rgba(49, 163, 113, .8);
+}
+.carousel-control{
+    color: rgba(49, 163, 113);
 }
