@@ -18,3 +18,5 @@
 //     event.stopImediatePropogation();
 
 // });
+
+//need to add changing classes for mobal views.
