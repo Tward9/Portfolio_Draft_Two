@@ -11,3 +11,13 @@
 .carousel-control{
     color: rgba(49, 163, 113);
 }
+#aboutMeImg{
+    width: 350px;
+    height: auto;
+}
+#projectsCarousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
