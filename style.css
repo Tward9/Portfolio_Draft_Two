@@ -1,9 +1,12 @@
+body{
+    background: linear-gradient(0deg, rgba(49,163,113,1) 0%, rgba(64,214,149,1) 50%, rgba(49,163,113,1) 100%);
+}
 #bio{
     margin: auto;
 }
 #projectsDiv{
     margin: auto;
-    height: 750px;
+    height: auto;
 }
 .carousel-caption{
     background-color: rgba(49, 163, 113, .8);
@@ -20,4 +23,36 @@
     object-position: center;
     height: 60vh;
     overflow: hidden;
+}
+#myProjects{
+    margin-bottom: .25em;
+}
+#modal1Img{
+    width: 350px;
+    height: auto;
+    margin-left: 34%;
+    margin-right: auto;
+}
+#modal2Img{
+    width: 350px;
+    height: auto;
+    padding: .25em;
+}
+#modal3Img{
+    width: 350px;
+    height: auto;
+    padding: .25em;
+}
+#modal4Img{
+    width: 350px;
+    height: auto;
+    padding: .25em;
+}
+#modal5Img{
+    width: 350px;
+    height: auto;
+    padding: .25em;
+}
+@media screen and (max-width: 800px){
+    
 }
