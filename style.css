@@ -1,10 +1,17 @@
 body{
-    background: linear-gradient(0deg, rgba(49,163,113,1) 0%, rgba(64,214,149,1) 50%, rgba(49,163,113,1) 100%);
+    background: linear-gradient(0deg, rgba(197,231,216,1) 0%, rgba(194,233,216,1) 50%, rgba(164,193,180,1) 100%);
 }
 #bio{
     margin: auto;
 }
+.makeFlex{
+    display: flex
+}
 #projectsDiv{
+    margin: auto;
+    height: auto;
+}
+#projectsDiv2{
     margin: auto;
     height: auto;
 }
@@ -24,6 +31,12 @@ body{
     height: 60vh;
     overflow: hidden;
 }
+#projects2Carousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
 #myProjects{
     margin-bottom: .25em;
 }
@@ -37,6 +50,8 @@ body{
     width: 350px;
     height: auto;
     padding: .25em;
+    margin-left: 34%;
+    margin-right: auto;
 }
 #modal3Img{
     width: 350px;
@@ -52,4 +67,25 @@ body{
     width: 350px;
     height: auto;
     padding: .25em;
+}
+#modal6Img{
+    width: 350;
+    height: auto;
+    padding: .25em;
+}
+#modal7Img{
+    width: 350;
+    height: auto;
+    padding: .25em;
+    margin-left: 30%;
+    margin-right: auto;
+}
+#modal8Img{
+    width: 350;
+    height: auto;
+    padding: .25em;
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
 }
